@@ -22,8 +22,18 @@ CSS STRUCTURE:
 2. GENERAL TYPOGRAPHY
 
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: AkkuratPro;
+  src: url("fonts/AkkuratPro.otf");
+}
+
+#siteTitle {
+  font-family: Poiret One, SansSerif;
+}
+
 body {
-  --heading-font: Poiret One, serif;
+  --heading-font: Varela,Sans-Serif;
   --heading-font-weight: 400;
   --heading-color: #111;
   --heading-line-height: 1.24;
@@ -31,7 +41,7 @@ body {
   --swiper-theme-color: #8C907E;
 
   /* bootstrap */
-  --bs-body-font-family: Poiret One, serif;
+  --bs-body-font-family: Varela,Sans-Serif;
   --bs-body-font-size: 18px;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -109,32 +119,32 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h2,
 .h2 {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 
 h3,
 .h3 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 
 h4,
 .h4 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 h5,
 .h5 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 a {
@@ -1188,6 +1198,10 @@ a {
   opacity: 1;
 }
 
+.product-item .dress-title {
+  font-size: 0.9rem;
+}
+
 /* rotating text */
 .text-rotate {
   animation: rotation 50s infinite linear;
@@ -1520,6 +1534,11 @@ a.btn-link.text-light:after {
   border: 1px solid #999;
 }
 
+.accordion-item .accordion-button {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
 /* image zoom */
 .image-zoom {
   position: relative;
@@ -1540,7 +1559,6 @@ a.btn-link.text-light:after {
   background-size: cover;
   transition: transform .3s ease-out;
 }
-
 
 /*** Additional CSS ***/
 
@@ -1613,9 +1631,10 @@ a.btn-link.text-light:after {
 	.productboxes {margin-bottom: -20px;}
 	#billboardtextdesigner .container {padding: 20px 20px 0 20px}
 	.designer-title {margin-top: 0 !important}
-	h1, .h1 {font-size: 3rem !important}
-	h2, .h2 {font-size: 2.2rem !important}
-	h3, .h3 {font-size: 1.8rem !important}
+	h1, .h1 {font-size: 2rem !important}
+	h2, .h2 {font-size: 1.8rem !important}
+	h3, .h3 {font-size: 1.5rem !important}
+
 	.newin {padding-top: 30px; padding-bottom: 0 !important;}
 	.newin .col-md-4 {padding-bottom: 20px;}
 	#billboard {padding: 15px !important;}
