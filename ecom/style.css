@@ -904,6 +904,12 @@ a {
 @media screen and (max-width: 767px) {
 .productboxesrow .image-holder img {height: 220px}}
 
+.productboxesrow .square-image-holder img {height: 320px; display: block;}
+
+@media screen and (max-width: 767px) {
+.productboxesrow .square-image-holder img {height: 160px}}
+
+
 /*.productboxesrow .image-holder a:has(img) {background: #f4f4f4;}*/
 
 
